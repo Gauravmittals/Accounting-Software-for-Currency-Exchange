@@ -60,3 +60,61 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Currency-Exchange-Dashboard-
+
+This guide explains how to run the Laravel application locally after cloning the repository.
+
+---
+
+## 📋 Prerequisites
+
+Make sure the following are installed on your system:
+
+- PHP (version as required in `composer.json`)
+- Composer
+- MongoDb
+- Git
+
+Check installed versions:
+```bash
+php -v
+composer -V
+npm -v
+```
+
+---
+
+## 📥 Clone the Repository
+
+
+## 📦 Install Dependencies
+
+### PHP Dependencies
+```bash
+composer install
+```
+
+---
+
+## 🗄️ Database Configuration
+
+Edit the `.env` file and update database credentials:
+
+## 🧱 Run Migrations
+
+```bash
+php artisan migrate
+```
+
+## ▶️ Run the Application
+
+Start the development server:
+```bash
+php artisan serve
+```
+
+Access the application in your browser:
+```
+http://127.0.0.1:8000
+```
+
+---
